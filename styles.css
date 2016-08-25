@@ -1,0 +1,19 @@
+h2 {
+  text-align: center;
+  font-family: Helvetica;
+}
+
+#container {
+  height: 506px;
+  width: 506px;
+  margin: 0px auto;
+}
+
+.grid_item {
+  height: 30px;
+  width: 30px;
+  background-color: #B0B0B0;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid white;
+}
