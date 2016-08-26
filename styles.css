@@ -3,6 +3,11 @@ h2 {
   font-family: Helvetica;
 }
 
+p {
+  text-align: center;
+  font-family: Helvetica;
+}
+
 #container {
   height: 800px;
   width: 800px;

@@ -100,9 +100,9 @@ function increment_trail() {
 
 function leave_trail() {
   $(".grid_item").mouseenter(function() {
-    $(this).css("background-color", "black");
+    $(this).css({"background-color": "black", "transition-duration": "0s"});
   });
   $(".grid_item").mouseleave(function() {
-    
+    $(this).css({"background-color": "#B0B0B0", "transition-duration": "1s"});
   });
 }
